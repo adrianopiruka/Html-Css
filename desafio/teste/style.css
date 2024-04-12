@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+img {
+    filter: grayscale(100%);
+}
+
+img:hover {
+    filter: grayscale(0%);
+    transition: 1s all ease;
+}
